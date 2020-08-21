@@ -1,2 +1,2 @@
 # Practice
-This Repository conists of coding projects form Packt/Exercism and more.
+This Repository consists of coding projects form Packt/Exercism and more.
