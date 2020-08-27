@@ -1,9 +1,9 @@
 /********************************************
 *@author: Angus Frisch                      *
-*@discrption: Number guessing game. User 	*
-*             will input number of guess,	*
-*             a min and max number. A number*
-*			  is then randomly generated.   *
+*@discrption: Number guessing game. User    *
+*             will input number of guess,   *
+*	      a min and max number. A number*
+*	  is then randomly generated.       *
 *//*****************************************/
 
 #include <iostream>
@@ -31,7 +31,7 @@ int main()
 		cout << "Enter max number: ";
 		cin >> max;
 		srand(time(NULL));
-		guessGame(guessNum, rand()%(max-min+1));
+		guessGame(guessNum, rand()%(max-min+1)-min);
 		cout << "To exit the game enter \"0\""", or any number to continue: ";
 		cin >> guessNum;
 	}while(guessNum != 0);
